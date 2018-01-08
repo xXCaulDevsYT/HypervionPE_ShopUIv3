@@ -147,8 +147,7 @@ public $Blocks = [
     "Yellow Banner" => [425,11,12000,1200],
     "Light Blue Banner" => [425,12,13000,1300],
     "Magenta Banner" => [425,13,14000,1400],
-    "Orange Banner" => [425,14,15000,1500],
-    "White Banner" => 425,15,16000,1600]
+    "Orange Banner" => [425,14,15000,1500]
   ];
 
   public $Raiding = [
