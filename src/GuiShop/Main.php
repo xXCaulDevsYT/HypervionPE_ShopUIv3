@@ -189,22 +189,22 @@ public $Blocks = [
   ];
   
   public $Banners = [
-   "ICON" => ["Banners",425,0],
-   "Black Banner" => [425,0,1000,100],
-   "Red Banner" => [425,1,2000,200],
-   "Green Banner" => [425,2,3000,300],
-   "Brown Banner" => [425,3,4000,400],
-   "Blue Banner" => [425,4,5000,500],
-   "Purple Banner" => [425,5,6000,600],
-   "Cyan Banner" => [425,6,7000,700],
-   "Light Gray Banner" => [425,7,8000,800],
-   "Gray Banner" => [425,8,9000,900],
-   "Pink Banner" => [425,9,10000,1000],
-   "Lime Banner" => [425,10,11000,1100],
-   "Yellow Banner" => [425,11,12000,1200],
-   "Light Blue Banner" => [425,12,13000,1300],
-   "Magenta Banner" => [425,13,14000,1400],
-   "Orange Banner" => [425,14,15000,1500]
+   "ICON" => ["Banners",446,0],
+   "Black Banner" => [446,0,1000,100],
+   "Red Banner" => [446,1,2000,200],
+   "Green Banner" => [446,2,3000,300],
+   "Brown Banner" => [446,3,4000,400],
+   "Blue Banner" => [446,4,5000,500],
+   "Purple Banner" => [446,5,6000,600],
+   "Cyan Banner" => [446,6,7000,700],
+   "Light Gray Banner" => [446,7,8000,800],
+   "Gray Banner" => [446,8,9000,900],
+   "Pink Banner" => [446,9,10000,1000],
+   "Lime Banner" => [446,10,11000,1100],
+   "Yellow Banner" => [446,11,12000,1200],
+   "Light Blue Banner" => [446,12,13000,1300],
+   "Magenta Banner" => [446,13,14000,1400],
+   "Orange Banner" => [446,14,15000,1500]
  ];
 	
   public function onEnable(){
