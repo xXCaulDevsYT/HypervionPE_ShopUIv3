@@ -111,26 +111,6 @@ public $Blocks = [
     "Seed" => [295,0,20,10]
   ];
 
-  public $Banner = [
-    "ICON" => ["Banner",425,0],
-    "Black Banner" => [425,0,1000,100],
-    "Red Banner" => [425,1,2000,200],
-    "Green Banner" => [425,2,3000,300],
-    "Brown Banner" => [425,3,4000,400],
-    "Blue Banner" => [425,4,5000,500],
-    "Purple Banner" => [425,5,6000,600],
-    "Cyan Banner" => [425,6,7000,700],
-    "Light Gray Banner" => [425,7,8000,800],
-    "Gray Banner" => [425,8,9000,900],
-    "Pink Banner" => [425,9,10000,1000],
-    "Lime Banner" => [425,10,11000,1100],
-    "Yellow Banner" => [425,11,12000,1200],
-    "Light Blue Banner" => [425,12,13000,1300],
-    "Magenta Banner" => [425,13,14000,1400],
-    "Orange Banner" => [425,14,15000,1500],
-    "White Banner" => 425,15,16000,1600]
-  ];
-
   public $Miscellaneous = [
     "ICON" => ["Miscellaneous",368,0],
 	"PVP Elixir" => [373,101,35000,500],
@@ -152,7 +132,23 @@ public $Blocks = [
     "Light Blue Bed" => [355,3,200,20],
     "Yellow Bed" => [355,4,200,20],
     "Lime Bed" => [355,5,200,20],
-    "Anvil" => [145,0,500,50]
+    "Anvil" => [145,0,500,50],
+    "Black Banner" => [425,0,1000,100],
+    "Red Banner" => [425,1,2000,200],
+    "Green Banner" => [425,2,3000,300],
+    "Brown Banner" => [425,3,4000,400],
+    "Blue Banner" => [425,4,5000,500],
+    "Purple Banner" => [425,5,6000,600],
+    "Cyan Banner" => [425,6,7000,700],
+    "Light Gray Banner" => [425,7,8000,800],
+    "Gray Banner" => [425,8,9000,900],
+    "Pink Banner" => [425,9,10000,1000],
+    "Lime Banner" => [425,10,11000,1100],
+    "Yellow Banner" => [425,11,12000,1200],
+    "Light Blue Banner" => [425,12,13000,1300],
+    "Magenta Banner" => [425,13,14000,1400],
+    "Orange Banner" => [425,14,15000,1500],
+    "White Banner" => 425,15,16000,1600]
   ];
 
   public $Raiding = [
@@ -215,7 +211,7 @@ public $Blocks = [
 		PacketPool::registerPacket(new ModalFormResponsePacket());
 		PacketPool::registerPacket(new ServerSettingsRequestPacket());
 		PacketPool::registerPacket(new ServerSettingsResponsePacket());
-    $this->item = [$this->MobDrop, $this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Banner, $this->Ores, $this->Blocks, $this->Miscellaneous];
+    $this->item = [$this->MobDrop, $this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Ores, $this->Blocks, $this->Miscellaneous];
   }
 
   public function sendMainShop(Player $player){
