@@ -111,8 +111,8 @@ public $Blocks = [
     "Seed" => [295,0,20,10]
   ];
 
-  public $Banners = [
-    "ICON" => ["Banners",425,0],
+  public $Banner = [
+    "ICON" => ["Banner",425,0],
     "Black Banner" => [425,0,1000,100],
     "Red Banner" => [425,1,2000,200],
     "Green Banner" => [425,2,3000,300],
@@ -215,7 +215,7 @@ public $Blocks = [
 		PacketPool::registerPacket(new ModalFormResponsePacket());
 		PacketPool::registerPacket(new ServerSettingsRequestPacket());
 		PacketPool::registerPacket(new ServerSettingsResponsePacket());
-    $this->item = [$this->MobDrop, $this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Banners, $this->Ores, $this->Blocks, $this->Miscellaneous];
+    $this->item = [$this->MobDrop, $this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Banner, $this->Ores, $this->Blocks, $this->Miscellaneous];
   }
 
   public function sendMainShop(Player $player){
