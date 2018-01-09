@@ -68,7 +68,25 @@ public $Blocks = [
     "Light Blue Stained Glass" => [160,3,1000,100],
     "Yellow Stained Glass" => [160,4,1000,100],
     "Lime Stained Glass" => [160,5,1000,100],
-    "Slime Blocks" => [165,0,5000,500]
+    "Slime Blocks" => [165,0,5000,500],
+    "Magma Block (BETA)" => [213,0,100,10],
+    "Nether Wart Block (BETA)" => [214,0,100,10],
+    "Nether Brick" => [215,0,100,10],
+    "Bone Block" => [216,0,100,10],
+    "Concrete" => [236,0,1000,100],
+    "purple glazed terracotta" => [219,0,5000,500],
+    "white glazed terracotta" => [220,0,5000,500],
+    "orange glazed terracotta" => [221,0,5000,500],
+    "magenta glazed terracotta" => [222,0,5000,500],
+    "light blue glazed terracotta" => [223,0,5000,500],
+    "yellow glazed terracotta" => [224,0,5000,500],
+    "lime glazed terracotta" => [225,0,5000,500],
+    "pink glazed terracotta" => [226,0,5000,500],
+    "gray glazed terracotta" => [227,0,5000,500],
+    "silver glazed terracotta" => [228,0,5000,500],
+    "cyan glazed terracotta" => [229,0,5000,500],
+    "blue glazed terracotta" => [231,0,6000,600],
+    "Purpur Stairs" => [202,0,1000,100]
   ];
 
   public $Ores = [
@@ -77,7 +95,8 @@ public $Blocks = [
     "Iron Ingot" => [265,0,200,2],
     "Gold Ingot" => [266,0,300,2],
     "Diamond" => [264,0,500,3],
-    "Lapis" => [351,4,500,20]
+    "Lapis" => [351,4,500,20],
+    "Nether Quartz Ore" => [153,0,500,50]
   ];
 
   public $Tools = [
@@ -127,7 +146,9 @@ public $Blocks = [
     "Totem of Undying" => [450,0,1000,500],
     "Brewing Stand" => [117,0,500,20],
     "Carpet" => [171,0,100,5],
-    "Anvil" => [145,0,500,50]
+    "Anvil" => [145,0,500,50],
+    "Armor Stand" => [425,0,100,10],
+    "Iron TrapDoor" => [167,0,100,10]
   ];
 
   public $Raiding = [
