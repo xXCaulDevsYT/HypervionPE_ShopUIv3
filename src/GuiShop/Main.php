@@ -43,7 +43,7 @@ public $Blocks = [
     "Glowstone" => [89,0,100,50],
     "Sea Lantern" => [169,0,100,50],
 	"Grass" => [2,0,20,10],
-	"Dirt" => [3,0,10, 5],
+	"Dirt" => [3,0,10,5],
     "Stone" => [1,0,20,10],
     "Planks" => [5,0,20,10],
     "Prismarine" => [168,0,30,20],
@@ -127,12 +127,6 @@ public $Blocks = [
     "Totem of Undying" => [450,0,1000,500],
     "Brewing Stand" => [117,0,500,20],
     "Carpet" => [171,0,100,5],
-    "White Bed" => [355,0,100,10],
-    "Orange Bed" => [355,1,200,20],
-    "Magenta Bed" => [355,2,200,20],
-    "Light Blue Bed" => [355,3,200,20],
-    "Yellow Bed" => [355,4,200,20],
-    "Lime Bed" => [355,5,200,20],
     "Anvil" => [145,0,500,50]
   ];
 
