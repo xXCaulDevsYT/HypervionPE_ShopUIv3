@@ -67,7 +67,8 @@ public $Blocks = [
     "Magenta Stained Glass" => [160,2,1000,100],
     "Light Blue Stained Glass" => [160,3,1000,100],
     "Yellow Stained Glass" => [160,4,1000,100],
-    "Lime Stained Glass" => [160,5,1000,100]
+    "Lime Stained Glass" => [160,5,1000,100],
+    "Slime Blocks" => [165,0,5000,500]
   ];
 
   public $Ores = [
