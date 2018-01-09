@@ -207,6 +207,16 @@ public $Blocks = [
    "Magenta Banner" => [446,13,14000,1400],
    "Orange Banner" => [446,14,15000,1500]
  ];
+ 
+ public $Beds = [
+  "ICON" => ["Beds",355,0],
+  "White Bed" => [355,0,100,10],
+  "Orange Bed" => [355,1,200,20],
+  "Magenta Bed" => [355,2,200,20],
+  "Light Blue Bed" => [355,3,200,20],
+  "Yellow Bed" => [355,4,200,20],
+  "Lime Bed" => [355,5,200,20]
+];
 	
   public function onEnable(){
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -215,7 +225,7 @@ public $Blocks = [
 		PacketPool::registerPacket(new ModalFormResponsePacket());
 		PacketPool::registerPacket(new ServerSettingsRequestPacket());
 		PacketPool::registerPacket(new ServerSettingsResponsePacket());
-    $this->item = [$this->Banners, $this->MobDrop, $this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Ores, $this->Blocks, $this->Miscellaneous];
+    $this->item = [$this->Beds, $this->Banners, $this->MobDrop, $this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Ores, $this->Blocks, $this->Miscellaneous];
   }
 
   public function sendMainShop(Player $player){
