@@ -20,7 +20,7 @@ This plugin is however, updated almost everyday, so feel free to ask us what ite
 * Add Shulker boxes [***✖***]
 * Add Banners [***✔***]
 * Add Blocks [***✔***]
-* Add Elytras [******]
+* Add Elytras [***✔***]
 * Add Boats [***✔***]
 * Add Fishing Rod [***✖***]
 * Add Doors [***✖***]
