@@ -29,3 +29,23 @@ This plugin is however, updated almost everyday, so feel free to ask us what ite
 * Add Custom potions [***✖***]
 * Add Potions [***✔***]
 * Add Elixir potions [***✔***]
+* Add Netherrack [***✔***]
+* Add Glazed blocks [***✔***]
+* Add Nether brick block [***✔***]
+* Add Magma block [***✔***]
+* Add Wool [***✔***]
+* Add a full-complete wool section [***✖***]
+* Add Stone brick [***✔***]
+* Add Ender pearls [***✔***]
+* Add Fireworks [***✔***]
+* Add aliases for /shop [***✖***]
+* Add more armour [***✖***]
+* Fix selling duplication glitches for armour and elytras [***✖***]
+* Ready for V2 [***✖***]
+
+
+***NOTICE***
+
+**Some of the items require TeaSpoon plugin. Since PMMP currently does not implement most of these features / items in shop. The shop plugin its self will work, but buying the items / blocks without TeaSpoon will be useless, as they won't work.
+
+Link: - Coming soon
