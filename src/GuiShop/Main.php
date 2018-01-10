@@ -147,7 +147,8 @@ public $Blocks = [
     "Brewing Stand" => [117,0,500,20],
     "Carpet" => [171,0,100,5],
     "Anvil" => [145,0,500,50],
-    "Iron TrapDoor" => [167,0,100,10]
+    "Iron TrapDoor" => [167,0,100,10],
+    "Hoppers" => [410,0,1000,100]
   ];
 
   public $Raiding = [
