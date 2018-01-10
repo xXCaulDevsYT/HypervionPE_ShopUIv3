@@ -48,4 +48,10 @@ This plugin is however, updated almost everyday, so feel free to ask us what ite
 
 **Some of the items require TeaSpoon plugin. Since PMMP currently does not implement most of these features / items in shop. The shop plugin its self will work, but buying the items / blocks without TeaSpoon will be useless, as they won't work.
 
-Link: - Coming soon
+Link: - https://poggit.pmmp.io/ci/CortexPE/TeaSpoon/TeaSpoon
+
+
+Another plugin which is required, is VM-Core:
+
+This plugin is required, so you can have Custom potions on your server. The potions which are Elixirs will not work witout VM-Core, and will glitch you out, so please use this plugin to enagle Elixirs / Custom Potions.
+Link - Coming soon.
