@@ -183,7 +183,9 @@ public $Blocks = [
     "Fire Resistance" => [373,13,1000,100],
     "Poison (SPLASH)" => [438,27,1000,100],
     "Weakness (SPLASH)" => [438,35,1000,100],
-    "Slowness (SPLASH)" => [438,17,1000,100]
+    "Slowness (SPLASH)" => [438,17,1000,100],
+    "NightVision" => [373,5,1000,100],
+    "Water Breathing (SPLASH)" => [438,19,1000,100]
   ];
 
   public $Skulls = [
