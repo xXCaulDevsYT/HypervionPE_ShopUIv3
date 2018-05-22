@@ -30,52 +30,52 @@ class Main extends PluginBase implements Listener {
 
 public $Blocks = [
     "ICON" => ["Blocks",2,0],
-    "Oak Wood" => [17,0,30,4],
-    "Birch Wood" => [17,2,30,3],
-    "Spruce Wood" => [17,1,30,4],
-    "Dark Oak Wood" => [162,1,30,3],
-	"Cobblestone" => [4,0,10,2],
-	"Obsidian" => [49,0,500,50],
-	"Bedrock" => [7,0,1500,50],
-	"Sand " => [12,0,15,2],
-    "Sandstone " => [24,0,15,3],
-	"Nether Rack" => [87,0,15,2],
-    "Glass" => [20,0,50,5],
-    "Glowstone" => [89,0,100,10],
-    "Sea Lantern" => [169,0,100,10],
-	"Grass" => [2,0,20,3],
-	"Dirt" => [3,0,10,2],
-    "Stone" => [1,0,20,3],
-    "Planks" => [5,0,20,3],
-    "Prismarine" => [168,0,30,3],
-    "End Stone" => [121,0,30,3],
-    "Emerald Block" => [133,0,100,10],
-    "Diamond Block" => [57,0,100,10],
-    "Glass" => [20,0,50,9],
-    "Iron Block" => [42,0,50,9],
-    "Gold Block" => [41,0,50,9],
-    "Purpur Blocks" => [201,0,50,9],
-    "Quartz Block" => [155,0,100,10]
+    "Oak Wood" => [17,0,30,0],
+    "Birch Wood" => [17,2,30,0],
+    "Spruce Wood" => [17,1,30,0],
+    "Dark Oak Wood" => [162,1,30,0],
+	"Cobblestone" => [4,0,10,0],
+	"Obsidian" => [49,0,500,0],
+	"Bedrock" => [7,0,1500,0],
+	"Sand " => [12,0,15,0],
+    "Sandstone " => [24,0,15,0],
+	"Nether Rack" => [87,0,15,0],
+    "Glass" => [20,0,50,0],
+    "Glowstone" => [89,0,100,0],
+    "Sea Lantern" => [169,0,100,0],
+	"Grass" => [2,0,20,0],
+	"Dirt" => [3,0,10,0],
+    "Stone" => [1,0,20,0],
+    "Planks" => [5,0,20,0],
+    "Prismarine" => [168,0,30,0],
+    "End Stone" => [121,0,30,0],
+    "Emerald Block" => [133,0,100,0],
+    "Diamond Block" => [57,0,100,0],
+    "Glass" => [20,0,50,0],
+    "Iron Block" => [42,0,50,0],
+    "Gold Block" => [41,0,50,0],
+    "Purpur Blocks" => [201,0,50,0],
+    "Quartz Block" => [155,0,100,0]
   ];
 	
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,100,30],
-    "Iron Ingot" => [265,0,200,20],
-    "Gold Ingot" => [266,0,300,30],
-    "Diamond" => [264,0,500,30],
-    "Lapis" => [351,4,500,50]
+    "Coal" => [263,0,100,0],
+    "Iron Ingot" => [265,0,200,0],
+    "Gold Ingot" => [266,0,300,0],
+    "Diamond" => [264,0,500,0],
+    "Lapis" => [351,4,500,0]
   ];
 	
   public $Tools = [
     "ICON" => ["Tools",278,0],
-    "Diamond Pickaxe" => [278,0,500,4],
-    "Diamond Shovel" => [277,0,500,4],
-    "Diamond Axe" => [279,0,500,4],
-    "Diamond Hoe" => [293,0,500,4],
-    "Diamond Sword" => [276,0,750,4],
-    "Bow" => [261,0,400,10],
-    "Arrow" => [262,0,25,3]
+    "Diamond Pickaxe" => [278,0,500,0],
+    "Diamond Shovel" => [277,0,500,0],
+    "Diamond Axe" => [279,0,500,0],
+    "Diamond Hoe" => [293,0,500,0],
+    "Diamond Sword" => [276,0,750,0],
+    "Bow" => [261,0,400,0],
+    "Arrow" => [262,0,25,0]
   ];
 	
   public $Armor = [
@@ -88,93 +88,93 @@ public $Blocks = [
 	
   public $Farming = [
     "ICON" => ["Farming",293,0],
-    "Pumpkin" => [86,0,50,15],
-    "Melon" => [360,13,50,15],
-    "Carrot" => [391,0,80,10],
-    "Potato" => [392,0,80,10],
-    "Sugarcane" => [338,0,80,10],
-    "Wheat" => [296,6,80,10],
-    "Pumpkin Seed" => [361,0,20,3],
-    "Melon Seed" => [362,0,20,3],
-    "Seed" => [295,0,20,3]
+    "Pumpkin" => [86,0,50,0],
+    "Melon" => [360,13,50,0],
+    "Carrot" => [391,0,80,0],
+    "Potato" => [392,0,80,0],
+    "Sugarcane" => [338,0,80,0],
+    "Wheat" => [296,6,80,0],
+    "Pumpkin Seed" => [361,0,20,0],
+    "Melon Seed" => [362,0,20,0],
+    "Seed" => [295,0,20,0]
   ];
 	
   public $Food = [
     "ICON" => ["Food",364,0],
-	"Cooked Chicken" => [366,0,10,3],
-    "Steak" => [364,0,10,3]
+	"Cooked Chicken" => [366,0,10,0],
+    "Steak" => [364,0,10,0]
   ];
 	
   public $Miscellaneous = [
     "ICON" => ["Miscellaneous",368,0],
-	"PVP Elixir" => [373,101,35000,500],
-	"Raiding Elixir" => [373,100,10000,500],
-	"Furnace" => [61,0,20,5],
-    "Crafting Table" => [58,0,20,5],
-	"Ender Chest " => [130,0,1000,50],
-    "Enderpearl" => [368,0,1000,50],
-    "Bone" => [352,0,50,10],
+	"PVP Elixir" => [373,101,35000,0],
+	"Raiding Elixir" => [373,100,10000,0],
+	"Furnace" => [61,0,20,0],
+    "Crafting Table" => [58,0,20,0],
+	"Ender Chest " => [130,0,1000,0],
+    "Enderpearl" => [368,0,1000,0],
+    "Bone" => [352,0,50,0],
     "Book & Quill" => [386,0,100,0],
-    "Elytra" => [444,0,1000,50],
-    "Boats" => [333,0,1000,50],
-    "Totem of Undying" => [450,0,1000,50],
-    "Golden Apple" => [322,0,500,10],
-    "Enchanted Golden Apple" => [466,0,1000,50]
+    "Elytra" => [444,0,1000,0],
+    "Boats" => [333,0,1000,0],
+    "Totem of Undying" => [450,0,1000,0],
+    "Golden Apple" => [322,0,500,0],
+    "Enchanted Golden Apple" => [466,0,1000,0]
   ];
 	
   public $Raiding = [
     "ICON" => ["Raiding",46,0],
-    "Flint & Steel" => [259,0,100,10],
-    "Torch" => [50,0,5,2],
-	"Packed Ice " => [174,0,500,40],
-    "Water" => [9,0,50,5],
-    "Lava" => [10,0,50,5],
-    "Redstone" => [331,0,50,5],
-    "Chest" => [54,0,100,10],
-    "TNT" => [46,0,10000,500]
+    "Flint & Steel" => [259,0,100,0],
+    "Torch" => [50,0,5,0],
+	"Packed Ice " => [174,0,500,0],
+    "Water" => [9,0,50,0],
+    "Lava" => [10,0,50,0],
+    "Redstone" => [331,0,50,0],
+    "Chest" => [54,0,100,0],
+    "TNT" => [46,0,10000,0]
   ];
 	
   public $Mobs = [
     "ICON" => ["Mobs",52,0],
-    "Blaze" => [383,43,50000,1000],
-    "Stray" => [383,46,50000,1000],
-    "Skeleton" => [383,34,50000,1000],
-    "Zombie" => [383,32,50000,1000],
-    "Husk" => [383,47,50000,1000],
-    "Zombie_Pigman" => [383,36,50000,1000],
-    "Creeper" => [383,33,50000,1000],
-    "Iron_Golem" => [383,20,50000,1000],
-    "Snow Golem" => [383,21,50000,1000],
-    "Mob Spawner" => [52,0,55000,1500]
+    "Blaze" => [383,43,50000,0],
+    "Stray" => [383,46,50000,0],
+    "Skeleton" => [383,34,50000,0],
+    "Zombie" => [383,32,50000,0],
+    "Husk" => [383,47,50000,0],
+    "Zombie_Pigman" => [383,36,50000,0],
+    "Creeper" => [383,33,50000,0],
+    "Iron_Golem" => [383,20,50000,0],
+    "Snow Golem" => [383,21,50000,0],
+    "Mob Spawner" => [52,0,55000,0]
   ];
 	
   public $Potions = [
     "ICON" => ["Potions",373,0],
-    "Strength" => [373,33,1000,50],
-    "Regeneration" => [373,28,1000,50],
-    "Speed" => [373,16,1000,50],
-    "Fire Resistance" => [373,13,1000,50],
-    "Poison (SPLASH)" => [438,27,1000,50],
-    "Weakness (SPLASH)" => [438,35,1000,50],
-    "Slowness (SPLASH)" => [438,17,1000,50]
+    "Strength" => [373,33,1000,0],
+    "Regeneration" => [373,28,1000,0],
+    "Speed" => [373,16,1000,0],
+    "Fire Resistance" => [373,13,1000,0],
+    "Poison (SPLASH)" => [438,27,1000,0],
+    "Weakness (SPLASH)" => [438,35,1000,0],
+    "Slowness (SPLASH)" => [438,17,1000,0]
   ];
 	
   public $Skulls = [
     "ICON" => ["Skulls",397,0],
-    "Zombie Skull" => [397,2,500,10],
-    "Wither Skull" => [397,1,500,10],
-    "Skin Head" => [397,3,50,10],
-    "Creeper Skull" => [397,4,500,10],
-    "Dragon Skull" => [397,5,1000,50],
-    "Skeleton Skull" => [397,0,500,10]
+    "Zombie Skull" => [397,2,500,0],
+    "Wither Skull" => [397,1,500,0],
+    "Skin Head" => [397,3,50,0],
+    "Creeper Skull" => [397,4,500,0],
+    "Dragon Skull" => [397,5,1000,0],
+    "Skeleton Skull" => [397,0,500,0]
   ];
 	
   public $MobDrop = [
     "ICON" => ["MobDrop",369,0],
-    "Blaze Rod" => [369,0,500,10],
-    "Gold Nuggets" => [371,0,500,10],
-    "Rotten Flesh" => [367,0,500,10],
-    "GunPowder" => [289,0,500,10]
+    "Blaze Rod" => [369,0,500,0],
+    "Gold Nuggets" => [371,0,500,0],
+    "Rotten Flesh" => [367,0,500,0],
+    "GunPowder" => [289,0,500,0]
   ];
 	
   public function onEnable(){
@@ -255,9 +255,9 @@ public $Blocks = [
 
     $ui = new CustomForm($iname);
     $slider = new Slider("§dAmount ",1,500,0);
-    $toggle = new Toggle("§5Selling");
+    $toggle = new Toggle("§5Sell - Use /sell to sell stuff!");
     if($sell == 0) $sell = "0";
-    $label = new Label(TF::GREEN."Buy: $".TF::GREEN.$cost.TF::RED."\nSell: $".TF::RED.$sell);
+    $label = new Label(TF::GREEN."§dBuy: §5$".TF::GREEN.$cost.TF::RED."\n§dSell: §cDisabled. §2Use /sell to sell stuff");
     $ui->addElement($label);
     $ui->addElement($toggle);
     $ui->addElement($slider);
