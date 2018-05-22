@@ -188,7 +188,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§6Void§bFactions§cPE §dShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§6Void§bFactions§cPE §dShop","       §aPurchase items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -205,7 +205,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§6Void§bFactions§cPE §dShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§6Void§bFactions§cPE §dShop","       §aPurchase items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
@@ -286,7 +286,7 @@ public $Blocks = [
               $cost = $item[2]*$amount;
               $sell = $item[3]*$amount;
               if($sell == 0){
-                $player->sendMessage(TF::BOLD . TF::DARK_GRAY . "(" . TF::RED . "!" . TF::DARK_GRAY . ") " . TF::RESET . TF::GRAY . "§cThis is not sellable!");
+                $player->sendMessage(TF::BOLD . TF::DARK_GRAY . "(" . TF::RED . "!" . TF::DARK_GRAY . ") " . TF::RESET . TF::GRAY . "§cThis feature is disabled. You can sell stuff using /sell");
                 return true;
               }
               if($player->getInventory()->contains(Item::get($id,$damage,$amount))){
