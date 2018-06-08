@@ -120,16 +120,15 @@ public $Blocks = [
     "TNT" => [46,0,10000,500]
   ];
 	
-  public $Mobs = [
-    "ICON" => ["Mobs",52,0],
-    "Blaze" => [383,94,50000,1000],
-    "Creeper" => [383,33,50000,1000],
-    "Skeleton" => [383,34,50000,1000],
-    "Zombie" => [383,32,50000,1000],
-    "Husk" => [383,47,50000,1000],
-    "Zombie_Pigman" => [383,36,50000,1000],
-    "Mob Spawner" => [52,0,55000,2000]
-  ];
+  public $Ranks = [
+    "ICON" => ["Ranks",52,0],
+    "Coming Soon" => [383,94,50000,1000],
+    "Coming Soon" => [383,33,50000,1000],
+    "Coming Soon" => [383,34,50000,1000],
+    "Coming Soon" => [383,32,50000,1000],
+    "Coming Soon" => [383,47,50000,1000],
+    "Coming Soon" => [383,36,50000,1000],
+    "Coming Soon" => [52,0,55000,200,100];
 
   public $Potions = [
     "ICON" => ["Potions",373,0],
@@ -159,11 +158,11 @@ public $Blocks = [
 		PacketPool::registerPacket(new ModalFormResponsePacket());
 		PacketPool::registerPacket(new ServerSettingsRequestPacket());
 		PacketPool::registerPacket(new ServerSettingsResponsePacket());
-    $this->item = [$this->Skulls, $this->Potions, $this->Mobs, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Food, $this->Ores, $this->Blocks, $this->Miscellaneous];
+    $this->item = [$this->Skulls, $this->Potions, $this->Ranks, $this->Raiding, $this->Farming, $this->Armor, $this->Tools, $this->Food, $this->Ores, $this->Blocks, $this->Miscellaneous];
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§6Void§bFactions§cPE §dShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§6CubeX§bX§cPE §dShop","       §aPurchase and Sell items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -180,7 +179,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§6Void§bFactions§cPE §dShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§6Cube§bX§cPE §dShop","       §aPurchase and Sell items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
